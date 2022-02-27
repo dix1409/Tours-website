@@ -1,0 +1,56 @@
+/*<900  */
+@media (max-width: 75em /*1200px*/) {
+  html {
+    font-size: 56.25%; /*1rem=9px */
+  }
+}
+/* <600 */
+@media (max-width: 56.25em /*900px*/) {
+  html {
+    font-size: 50%; /*1rem=8px */
+  }
+}
+@media (min-width: 112.5em /*1800px*/) {
+  html {
+    font-size: 75%; /*1rem=12x */
+  }
+}
+@media (max-width: 56.25em /*900px*/) {
+  body {
+    padding: 0; /*1rem=8px */
+  }
+}
+@media (max-width: 37.5em /*600px*/) {
+  .heading {
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  }
+  .heading-main {
+    font-size: 5rem;
+    letter-spacing: 1rem;
+  }
+}
+@media (max-width: 37.5em /*600px*/) {
+  .heading-sec {
+    letter-spacing: 0.5rem;
+  }
+}
+@media (max-width: 56.25em /*900px*/) {
+  .about {
+    padding: 20rem 0;
+  }
+}
+@media (max-width: 56.25em /*900px*/) {
+  .secondary {
+    font-size: 2.8rem; /*1rem=8px */
+    margin-top: 8rem;
+  }
+}
+@media (max-width: 75em /*1200px*/) {
+  img .composition_photo .composition_photo--p3 {
+    display: inline-block;
+    position: absolute;
+    top: -45rem;
+    left: 37%;
+  }
+}
